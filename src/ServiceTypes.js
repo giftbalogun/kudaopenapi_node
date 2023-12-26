@@ -1,3 +1,8 @@
+/*
+Kuda Bank Open API wrapper
+@author Gift Balogun <@giftbalogun>
+*/
+
 class ServiceTypes {
     // LIST OF API SERVICES OFFERED BY KUDA
     static ADMIN_CREATE_VIRTUAL_ACCOUNT = 'ADMIN_CREATE_VIRTUAL_ACCOUNT';

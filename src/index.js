@@ -3,7 +3,7 @@ Kuda Bank Open API wrapper
 @author Gift Balogun <@giftbalogun>
 */
 
-// const kuda = require('..kuda');
 const bankcontroller = require('./controller/BankController');
+const billcontrolmod = require('./controller/BillController');
 
-module.exports = bankcontroller;
+module.exports = {bankcontroller, billcontrolmod};

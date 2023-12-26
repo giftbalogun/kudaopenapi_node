@@ -1,5 +1,8 @@
-// const express = require('express');
-// const router = express.Router();
+/*
+Kuda Bank Open API wrapper
+@author Gift Balogun <@giftbalogun>
+*/
+
 const Kuda = require('../kuda');
 const ServiceTypes = require('../ServiceTypes');
 
@@ -152,7 +155,7 @@ class KudaBankController {
         }
     }
 
-    async adminVirtualAccount(payload, requestRef = null) {
+    async adminVirtualAccounts(payload, requestRef = null) {
         try {
             const result = await this.kuda.makeRequest(
                 ServiceTypes.ADMIN_VIRTUAL_ACCOUNTS,
@@ -416,7 +419,6 @@ class KudaBankController {
 
 // Create an instance of the controller
 const kudaBankController = new KudaBankController();
-
 
 // Export the router
 module.exports = kudaBankController;

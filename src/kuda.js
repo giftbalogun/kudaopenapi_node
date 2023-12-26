@@ -1,5 +1,9 @@
+/*
+Kuda Bank Open API wrapper
+@author Gift Balogun <@giftbalogun>
+*/
+
 const axios = require("axios");
-const { v4: uuidv4 } = require("uuid");
 
 class Kuda {
     constructor() {

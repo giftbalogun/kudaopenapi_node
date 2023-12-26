@@ -1,6 +1,6 @@
 {
   "name": "kudaopenapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Js integration with KudaOpenApi for seemless Banking via Kuda Bank Open Api",
   "main": "src/index.js",
   "scripts": {
@@ -16,7 +16,14 @@
   "author": "Gift Balogun",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.6.2",
-    "uuid": "^9.0.1"
-  }
+    "axios": "^1.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/giftbalogun/kudaopenapi_node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/giftbalogun/kudaopenapi_node/issues"
+  },
+  "homepage": "https://github.com/giftbalogun/kudaopenapi_node"
 }
