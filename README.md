@@ -7,14 +7,14 @@
 <hr>
 
 <p align="center">
-  <a href="#nodejs-getting-started">Getting Started</a> &#xa0; | &#xa0;
-  <a href="#nodejs-installation">Installation</a> &#xa0; | &#xa0;
+  <a href="#dart-getting-started">Getting Started</a> &#xa0; | &#xa0;
+  <a href="#dart-installation">Installation</a> &#xa0; | &#xa0;
   <a href="#sparkles-usage">Usage</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/giftbalogun" target="_blank">Author</a>
 </p>
 
-## :nodejs: Getting Started
+## :dart: Getting Started
 
 Enable your product for local transactions with the KudaOpenAPI! With the KUDA Open APIs you can embed services unto your platform and connect your customers to a wide range of banking services.
 
@@ -23,7 +23,7 @@ Before you proceed, ensure you have a [Kuda Business account](https://business.k
 Get your token from the [Developer Dashboard](https://developer.kuda.com/)!.
 
 
-## :nodejs: Installation
+## :dart: Installation
 
 ```
 npm install kudaopenapi
