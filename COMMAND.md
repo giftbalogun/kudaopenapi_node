@@ -32,3 +32,12 @@ const billcontroller = require("kudaopenapi/src/controller/BillController");
 - bill_tsq
 - admin_get_purchased_bills
 - get_purchased_bills
+
+
+# GiftCard API
+use Giftbalogun\Kudaapitoken\Controllers\GiftCardController;
+
+- getgiftcard
+- admin_buygiftcard
+- buygiftcard
+- giftcard_tsq
