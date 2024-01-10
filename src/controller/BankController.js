@@ -24,7 +24,7 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error,
@@ -46,7 +46,7 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error,
@@ -66,7 +66,7 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error,
@@ -86,11 +86,11 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error,
-                Request: 'unable to create virtual account',
+                Request: 'unable to update virtual account',
             };
         }
     }
@@ -106,7 +106,7 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error,
@@ -126,7 +126,7 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error,
@@ -146,7 +146,7 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error,
@@ -166,7 +166,7 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error.message,
@@ -186,11 +186,11 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error,
-                Request: 'unable to create virtual account',
+                Request: 'unable to singleFundTransfer',
             };
         }
     }
@@ -206,11 +206,11 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error,
-                Request: 'unable to create virtual account',
+                Request: 'unable to virtualAccountFundTransfer',
             };
         }
     }
@@ -226,11 +226,11 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error,
-                Request: 'unable to create virtual account',
+                Request: 'unable to transactionStatusQuery',
             };
         }
     }
@@ -246,11 +246,11 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error,
-                Request: 'unable to create virtual account',
+                Request: 'unable to retrieveVirtualAccountBalance',
             };
         }
     }
@@ -266,11 +266,11 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error,
-                Request: 'unable to create virtual account',
+                Request: 'unable to admin_main_account_transaction',
             };
         }
     }
@@ -286,11 +286,11 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error,
-                Request: 'unable to create virtual account',
+                Request: 'unable to admin_main_account_filtered_transaction',
             };
         }
     }
@@ -306,11 +306,11 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error,
-                Request: 'unable to create virtual account',
+                Request: 'unable to admin_virtual_account_transaction',
             };
         }
     }
@@ -326,11 +326,11 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error,
-                Request: 'unable to create virtual account',
+                Request: 'unable to admin_virtual_account_filtered_transaction',
             };
         }
     }
@@ -346,11 +346,11 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error,
-                Request: 'unable to create virtual account',
+                Request: 'unable to fundVirtualAccount',
             };
         }
     }
@@ -366,11 +366,11 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error,
-                Request: 'unable to create virtual account',
+                Request: 'unable to wothdrawVirtualAccount',
             };
         }
     }
@@ -386,11 +386,11 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error,
-                Request: 'unable to create virtual account',
+                Request: 'unable to adminRetrieveAccountBalance',
             };
         }
     }
@@ -406,11 +406,11 @@ class KudaBankController {
             return result;
         } catch (error) {
             // Handle errors
-            console.error(error);
+            // console.error(error);
             return {
                 Status: false,
                 Message: error,
-                Request: 'unable to create virtual account',
+                Request: 'unable to retrieveTransactionLogs',
             };
         }
     }

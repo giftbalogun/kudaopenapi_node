@@ -1,5 +1,5 @@
 /*
-Kuda Bank Open API wrapper
+Kuda Bank Open API Wrapper
 @author Gift Balogun <@giftbalogun>
 */
 
